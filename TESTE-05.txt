@@ -1,0 +1,8 @@
+add $s1, $s3, $s3
+sw $s1, 1240($zero)
+lw $t0, 1200($t1)
+beq $t1, $s2, 200
+NOP
+NOP
+NOP
+sw $t0, 1500($t1)
